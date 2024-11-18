@@ -1,0 +1,142 @@
+.interact_ui {
+    height: fit-content;
+    width: fit-content;
+    min-width: 12vw;
+    padding: 2vh;
+}
+
+.interact_header {
+    width: 100%;
+    color: var(--text_colour);
+    text-shadow: var(--text_shadow);
+    font-size: 3vh;
+    font-family: var(--header_font_family);
+    text-transform: uppercase;
+    position: relative;
+}
+
+.interact_header::after {
+    position: absolute;
+    bottom: 1vh;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 0.4vh;
+    background: linear-gradient(to right, white, transparent);
+    border-radius: var(--border_radius);
+}
+
+.header_content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2vh;
+}
+
+.header_content i {
+    font-size: 2.5vh;
+    margin-right: 1vh;
+}
+
+.keys_container {
+    padding: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1vh;
+}
+
+.interaction_key {
+    display: flex;
+    align-items: center;
+    color: var(--text_colour);
+    font-family: var(--header_font_family);
+    text-shadow: var(--text_shadow);
+    font-size: 1.8vh;
+    padding: 1vh;
+}
+
+.key_label {
+    padding: 0.1vh;
+    color: var(--text_colour);
+    font-family: var(--text_font_family);
+}
+
+.key {
+    background: var(--secondary_background);
+    height: 2.5vh;
+    width: 2.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2vh solid var(--text_colour);
+    border-radius: var(--border_radius);
+    color: var(--text_colour);
+    font-size: 1.5vh;
+    text-transform: uppercase;
+    margin-right: 1vh;
+}
+
+.key p {
+    margin-bottom: 0.1vh;
+}
+
+.planted_ui {
+    min-width: 20vw;
+    height: fit-content;
+    box-shadow: var(--box_shadow);
+    background: var(--background);
+    border-radius: var(--border_radius);
+    font-family: var(--header_font_family);
+}
+
+.planted_header {
+    display: flex;
+    font-size: 2.5vh;
+    text-transform: uppercase;
+    position: relative;
+    padding: 1vh;
+    width: 100%;
+    height: fit-content;
+    background: var(--text_colour);
+    width: 95%;
+    flex-direction: row;
+    justify-content: space-between;
+    text-shadow: none;
+    color: var(--secondary_background);
+    border-bottom: 0.2vh solid rgba(0, 0, 0, 0.5);
+    font-family: inherit;
+}
+
+.planted_info {
+    background: var(--background);
+    opacity: 0.95;
+    width: 100%;
+    color: var(--text_colour);
+    border-radius: var(--border_radius);
+    font-family: inherit;
+}
+
+.planted_info_header {
+    font-size: 1.5vh;
+    font-weight: normal;
+    background: var(--tertiary_background);
+    border-bottom: 0.2vh solid rgba(0, 0, 0, 0.4);
+    padding: 1vh;
+    text-shadow: none;
+    position: relative;
+    text-shadow: none;
+}
+
+.planted_info_header p {
+    margin-top: 0.5vh;
+}
+
+.plant_stages {
+    width: 100%;
+    height: 63%;
+    border-bottom: 0.2vh solid rgba(0, 0, 0, 0.3);
+    position: relative;
+    display: flex;
+    gap: 1vh;
+}
