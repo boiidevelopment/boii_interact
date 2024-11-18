@@ -1,5 +1,8 @@
 # BOII Interact UI
 
+![INTERACT_THUMB](https://github.com/user-attachments/assets/d8c428f3-5b69-4a2c-a0fe-78f154f6a0a8)
+
+
 ## Overview
 
 BOII Interact UI is a lightweight, proximity-based interaction system using FiveM's DUI functions. 
