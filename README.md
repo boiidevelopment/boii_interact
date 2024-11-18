@@ -17,7 +17,7 @@ Enjoy
 
 ## 💹 Dependencies
 
-- **[boii_utils](https://github.com/boiidevelopment/boii_utils)** - For cross framework item checks.
+- **[boii_utils](https://github.com/boiidevelopment/boii_utils)** - For cross framework itemv and job checks.
 
 ## How To
 
