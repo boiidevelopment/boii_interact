@@ -13,7 +13,7 @@ fx_version 'cerulean'
 games { 'gta5', 'rdr3' }
 
 name 'boii_interact'
-version '1.0.0'
+version '1.0.1'
 description 'BOII | Development - Interact UI'
 author 'boiidevelopment'
 repository 'https://github.com/boiidevelopment/boii_interact'
@@ -29,6 +29,11 @@ client_scripts {
     'client/main.lua',
 }
 
+server_scripts {
+    'server/version.lua'
+}
+
 escrow_ignore {
-    'client/*'
+    'client/*',
+    'server/*'
 }
